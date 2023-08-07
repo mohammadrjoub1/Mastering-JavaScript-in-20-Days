@@ -1,6 +1,9 @@
-Day #1
+Day #1 
+
 2023-8-7
+
  The introduction section:
+ 
 -	Video #1:the instructor talked about how she get into Javascript world and why?
 
 -	Video#2:she viewed all the content and material that she will give us.
