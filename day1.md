@@ -1,6 +1,6 @@
 # Day #1 
 
-##2023-8-7
+## 2023-8-7
 
  ## The introduction section:
  
@@ -25,7 +25,7 @@ The DOM section:
 
 
 
-#Assignment#1
+# Assignment#1
  let a = 5;
 let b = 12;
 let c = 4.6;
@@ -35,11 +35,11 @@ a*= 5;
 b *= 3;
 c*= 10;
 
-#Assignment#2:
+# Assignment#2:
 let myStr="This is the first sentence. ";
 myStr+="This is the second sentence.";
 
-#Assignment#3:
+# Assignment#3:
 
 let dog = {
   name: "Spot",
