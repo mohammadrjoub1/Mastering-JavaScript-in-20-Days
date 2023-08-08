@@ -2,7 +2,7 @@
 
 ## 2023-8-7
 
- ## The introduction section:
+ # The introduction section:
  
 -	Video #1:the instructor talked about how she get into Javascript world and why?
 
@@ -13,7 +13,7 @@
 
 -	Video #4:where we write our js code and where we can run it , we can write it in multiple places like internet browser console area and we can go to the inspect option and go to the source tap ,then make snippests and write out code there, we can also write our code into ide like vs or sublime text or any text editor we wish and the code will be run in the browser (chrome,firefox,etc).
 -	
-The DOM section:
+# The DOM section:
 -	Video #1:we talked about the dom there and what is document object model and what is the html document by drawing the tree.
 
 -	Video#2:in this video we learnet about how to find certain html elements using multiple methods : like document.quearyselecter and . getelementbyclassname etc and more >>>>>
