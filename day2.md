@@ -1,6 +1,6 @@
-Day #2
-2023-8-7+2023-8-8
- Values & data types section:
+# Day #2
+## 2023-8-7+2023-8-8
+ # Values & data types section:
 -	Video#1:she talked about different data types like string and number etc.. and she talked about value definition and the kinds of data(primitive vs objects) and null vs undefined.
 -	Video#2:exercises(DONE)
 -	Video#3:she talked about strings and that it an array of characters and talked about length method.
@@ -9,12 +9,12 @@ Day #2
 
 
 
-Operators section:
+# Operators section:
 -	Video#1:operators like +*/- , typeof etc
 -	Video#2:Exercises (Done).
 -	Video#3: returning a boolean when running comparison operators and discusses the differences between the triple equals === and double equals == equality operators ,:=== vs == vs !== vs!=.
 
-Expressions section:
+# Expressions section:
 -	video#1: expression is a valid set of literals, variables, and operators that resolve to a single value.
 -	video#2: declaring and assigning variables using let keyword.
 -	video#3: declaring const and explaining about conatant variable keyword
@@ -25,7 +25,7 @@ Expressions section:
 
 
 
-Question#1:
+# Question#1:
 let a = 0;
 let b = "0";
 let c = false;
@@ -39,21 +39,21 @@ console.log(!!d); // output is true because the strings is not empty so its init
 
 
 
-Question#2:
+# Question#2:
 console.log(4 + 5 * "7"); //the output is 39 because js will convert the string “7” to number then the multiplication has will occur (7*5) because of its high priority then the addition will occur 
 
 
-Question#3:
+# Question#3:
 
 let result = 5 + 2 * 3 - 1; // we have to cases 1- if we don’t log out the result we will get undefined output 2-if we log the out we will get 10 as an output since the multiplication has the heights  priority here then addition and subtraction .
-Question#4:
+# Question#4:
 	let x = 10;
 let y = '10';
 console.log(x == y); // true because the double equal It performs type coercion, which means it attempts to convert the values to a common type before making the comparison and since the value is identical this means that the output is true. 
 
 console.log(x === y); // false because x is number and y a string(char).
 
-Question#5:
+# Question#5:
 let num = "15";
 let isPositive = true;
 let result = (num > 10 && isPositive) || num < 0; 
