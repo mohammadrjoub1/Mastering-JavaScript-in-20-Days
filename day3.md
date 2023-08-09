@@ -15,5 +15,8 @@
  - video#5:exercises DONE.
  - video#6:we always have been using object and nested things
  - video#7: objects in JavaScript, including document, console, Math, and String
- - 
+ - video#8:we used document.querySelector("#board > div:nth-child(3)") to accses things
+
+ # quiz project:
+- video#1:
  
