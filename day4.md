@@ -10,5 +10,6 @@
 - video#5:questions done !
 - video#6:project is done
 - video#7:project is done
-- video#8:
+- video#8+9:Are quiz exsercises and they are done.
+- video#10:
 - 
