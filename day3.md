@@ -18,5 +18,9 @@
  - video#8:we used document.querySelector("#board > div:nth-child(3)") to accses things
 
  # quiz project:
-- video#1:
+- DONE  i made all the todooooos!!
+
+# delieverables!
+## question1
+
  
