@@ -10,5 +10,10 @@
  # Objects Section:
  - video#1:access the values of an object's properties and how to make new prop in the object.
  - video#2:what happens when creating and accessing information in a JavaScript object
+ - video#3:exercises and freeze() and spread
+ - video#4:nestead object formula and methods!(nestead world)
+ - video#5:exercises DONE.
+ - video#6:we always have been using object and nested things
+ - video#7: objects in JavaScript, including document, console, Math, and String
  - 
  
