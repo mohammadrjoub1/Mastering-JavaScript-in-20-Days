@@ -33,6 +33,21 @@ function checkSign(num) {
 
 checkSign(10);
 
-# question #4:
+# question#2:
 
-  
+  const ratings =watchList.map(film=>({title:film["Title"],rating:film["imdbRating"]}));
+  # question #3:
+const filteredList = watchList
+  .filter(movie => {
+    return parseFloat(movie.imdbRating) >= 8.0;// return the film incase the rating is >= 8 this return will not return a bloeean value it return something else
+  })
+  .map(movie => {
+    return {
+      title: movie.Title,
+      rating: movie.imdbRating
+    };
+  });
+
+
+console.log(filteredList);
+# question4:
