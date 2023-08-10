@@ -21,7 +21,7 @@
 - video#2:Events are fired to notify code of "interesting changes" that may affect code execution.
 - video#3:Exercise is Done.
 
-  #Question#1:
+# Question#1:
   // Declare the myGlobal variable below this line
 let myGlobal=10;
 
@@ -45,6 +45,18 @@ function fun2() {
   console.log(output);
 }
 
-#Question#2:
+# Question#2:
+function myLocalScope() {
+  // Only change code below this line
+  let myVar;
 
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
+
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log('outside myLocalScope', myVar);
+
+# Question#3:
   
