@@ -14,4 +14,10 @@
   # map &filter:
   - video#1 :using the filter method to process an array for specified data and the map method to call a function on each item and create a new array.
   - video#2:practice work (DONE)
+  - video#3:spreading our data
+ 
+  # doggos game:
+  - video#1:quiz game overview and explaining.
+  - video#2:while loops to run a section of code repeatedly until a defined condition is true.
   - video#3:
+  
