@@ -11,5 +11,8 @@
 - video#6:project is done
 - video#7:project is done
 - video#8+9:Are quiz exsercises and they are done.
-- video#10:
+- video#10:scoping and code block mentality
+- video#11:scoping for let
+- video#12:scoping var
+- 
 - 
