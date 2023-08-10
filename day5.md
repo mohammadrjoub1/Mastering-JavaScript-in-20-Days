@@ -51,3 +51,13 @@ const filteredList = watchList
 
 console.log(filteredList);
 # question4:
+const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+
+function golfScore(par, strokes) {
+  const index = Math.min(strokes - par + 2, names.length - 1);
+  return names[index];
+}
+
+// Change these values to test
+console.log(golfScore(5, 4));  // Output: "Birdie"
+
