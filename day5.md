@@ -25,5 +25,14 @@
   - video#6:asynchronous function by setting a task to a to-do list by running it in a setTimeout function.
  
 # Question #1:
+function checkSign(num) {
+
+  return (num>0)?"positive":(num<0)?"negative":"zero"
+
+}
+
+checkSign(10);
+
+# question #4:
 
   
