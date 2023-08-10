@@ -12,4 +12,6 @@
 
 
   # map &filter:
-  - video#1 :
+  - video#1 :using the filter method to process an array for specified data and the map method to call a function on each item and create a new array.
+  - video#2:practice work (DONE)
+  - video#3:
