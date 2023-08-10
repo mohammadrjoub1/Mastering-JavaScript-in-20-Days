@@ -1,4 +1,4 @@
-![image](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/assets/122231941/64f0f413-e7f2-4602-814f-4a4bdb52cfa7)# day#5:
+# day#5:
 ## 2023-8-10
 
 # conditionals section:
