@@ -19,5 +19,7 @@
   # doggos game:
   - video#1:quiz game overview and explaining.
   - video#2:while loops to run a section of code repeatedly until a defined condition is true.
-  - video#3:
+  - video#3:quiz explainations.
+  - video#4:Implementing both the random item and shuffle utility functions.
+  - video#5:
   
