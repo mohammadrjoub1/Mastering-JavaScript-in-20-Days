@@ -1,4 +1,4 @@
-# day#5:
+![image](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/assets/122231941/64f0f413-e7f2-4602-814f-4a4bdb52cfa7)# day#5:
 ## 2023-8-10
 
 # conditionals section:
@@ -21,5 +21,9 @@
   - video#2:while loops to run a section of code repeatedly until a defined condition is true.
   - video#3:quiz explainations.
   - video#4:Implementing both the random item and shuffle utility functions.
-  - video#5:
+  - video#5:reviewing the quiz more
+  - video#6:asynchronous function by setting a task to a to-do list by running it in a setTimeout function.
+ 
+# Question #1:
+
   
