@@ -14,5 +14,37 @@
 - video#10:scoping and code block mentality
 - video#11:scoping for let
 - video#12:scoping var
-- 
-- 
+
+
+# Event and handler section !
+- video#1:what is event listeners are
+- video#2:Events are fired to notify code of "interesting changes" that may affect code execution.
+- video#3:Exercise is Done.
+
+  #Question#1:
+  // Declare the myGlobal variable below this line
+let myGlobal=10;
+
+
+function fun1() {
+  // Assign 5 to oopsGlobal here
+  oopsGlobal=5;
+
+}
+
+// Only change code above this line
+
+function fun2() {
+  let output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+
+#Question#2:
+
+  
