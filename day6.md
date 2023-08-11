@@ -27,3 +27,90 @@
   - video#7:answering student questions regarding how to think about programming paradigms in JavaScript and if companies are more often using pure JavaScript or JavaScript with a framework such as React.
 
 
+# Project : 
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: gainsboro;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .title {
+            color: black;
+            font-size: 48px;
+            text-align: center;
+            margin: 40px;
+        }
+
+        .character-list {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 0;
+        }
+
+        .character-item {
+            width: 30%;
+            border: 1px solid black;
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+        }
+
+        .character-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Rick & Morty Character List!</h1>
+    <ul class="character-list" id="characterList"></ul>
+    <p class="error" id="errorMessage"></p>
+
+    <script type="module">
+
+        async function fetchData() {
+            try {
+                let characterData = await fetch("https://rickandmortyapi.com/api/character?status=alive");
+                if (!characterData.ok) {
+                    throw new Error("Error fetching data");
+                }
+                let characterList = await characterData.json();
+                displayCharacterList(characterList.results);
+            } catch (error) {
+                document.getElementById("errorMessage").textContent = "An error occurred: " + error.message;
+            }
+        }
+
+        function displayCharacterList(characters) {
+            const characterList = document.getElementById("characterList");
+
+            characters.slice(0, 50).forEach(character => {
+                const li = document.createElement("li");
+                li.className = "character-item";
+                li.innerHTML = `
+                        <h2>${character.name}</h2>
+                        <img class="character-image" src="${character.image}" alt="${character.name}">
+                        <p><strong>Location:</strong> ${character.location.name}</p>
+                        <p><strong>Species:</strong> ${character.species}</p>
+                        <p><strong>Gender:</strong> ${character.gender}</p>
+                    `;
+                characterList.appendChild(li);
+            });
+        }
+
+        fetchData();
+
+    </script>
+</body>
+</html>
