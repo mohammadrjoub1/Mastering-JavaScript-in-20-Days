@@ -16,5 +16,6 @@
     # async section:
     - video#1:combining async fetching and parsing the resulting code into a single function to create an async function. The async function also needs to be awaited to retrieve the contents of the returned promise.
 
-    - video#2:
+    - video#3:Create a button element for each choice in the choicesArray, attach a click event listener with the buttonHandler function, and append the button as a child of the options element.
+    - video#4:
 
