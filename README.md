@@ -32,12 +32,12 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 - Celebrate your achievements and reflect on your growth throughout the challenge.
 
   ## Days structure :
-  -  [**da1**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day1.md)
-  -  [**da2**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day2.md)
-  -  [**da3**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day3.md)
-  -  [**da4**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day4.md)
-  -  [**da5**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day5.md)
-  -  [**da6**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day6.md)
+  -  [**day1**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day1.md)
+  -  [**day2**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day2.md)
+  -  [**day3**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day3.md)
+  -  [**day4**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day4.md)
+  -  [**day5**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day5.md)
+  -  [**day6**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day6.md)
     
 
 
