@@ -18,4 +18,10 @@
       
 
   # Modules section:
-  video#1:
+  - video#1:splitting large codebases into multiple smaller files using modules. The differences between JavaScript and module JavaScript, including await, scope, import, and export, are also covered in this segment.
+  - video#2:q&&a
+  - video#3: how to provide more information on bugs and errors using console.log, .warn(), .error(), and the console's debugger.
+  - video#4: showing multiple ways of setting breakpoints to assist in finding errors.
+  - video#5: error handling using try catch blocks to be aware of potential errors and then manage them if they occur.
+  - video#6:recommendations for next steps.
+
