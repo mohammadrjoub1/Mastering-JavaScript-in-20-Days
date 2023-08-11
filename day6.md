@@ -1,6 +1,3 @@
-# I am currently in the process of working on it, and I'm committed to completing it by the end of August 11th, 2023 11pm max. I apologize for any delay.
-
-
 # day#6 2023-8-11
 # data fetching section:
 - video#1:load data from an API endpoint on the internet. If the request is successful.
@@ -17,5 +14,6 @@
     - video#1:combining async fetching and parsing the resulting code into a single function to create an async function. The async function also needs to be awaited to retrieve the contents of the returned promise.
 
     - video#3:Create a button element for each choice in the choicesArray, attach a click event listener with the buttonHandler function, and append the button as a child of the options element.
-    - video#4:
+      ## WRAPPING ALL THE WORK !
+      
 
