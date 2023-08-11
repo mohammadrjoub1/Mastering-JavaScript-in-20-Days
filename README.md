@@ -31,4 +31,14 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 - Engage with the other GSG trainees. Seek support, share insights, and collaborate with fellow learners using the dedicated discussion telegram channel.
 - Celebrate your achievements and reflect on your growth throughout the challenge.
 
+  ## Days structure :
+  -  [**da1**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day1.md)
+  -  [**da2**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day2.md)
+  -  [**da3**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day3.md)
+  -  [**da4**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day4.md)
+  -  [**da5**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day5.md)
+  -  [**da6**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day6.md)
+    
+
+
 
