@@ -14,5 +14,7 @@
   - video#4:formatting the returned breed name using the .split() method. Brief demonstrations of the .reverse() and .trim() methods are also provided in this segment..
 
     # async section:
-    - video#1:
+    - video#1:combining async fetching and parsing the resulting code into a single function to create an async function. The async function also needs to be awaited to retrieve the contents of the returned promise.
+
+    - video#2:
 
