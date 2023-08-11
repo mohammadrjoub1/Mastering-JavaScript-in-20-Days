@@ -28,5 +28,6 @@
 
 
 # Project : 
+-  [**Rick and morty character list**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/project1.html)
 
 
