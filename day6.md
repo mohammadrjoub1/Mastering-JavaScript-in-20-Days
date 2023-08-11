@@ -24,4 +24,6 @@
   - video#4: showing multiple ways of setting breakpoints to assist in finding errors.
   - video#5: error handling using try catch blocks to be aware of potential errors and then manage them if they occur.
   - video#6:recommendations for next steps.
+  - video#7:answering student questions regarding how to think about programming paradigms in JavaScript and if companies are more often using pure JavaScript or JavaScript with a framework such as React.
+
 
