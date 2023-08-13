@@ -8,5 +8,5 @@
 # Function and callBacks
 - video#1:how to make your functions more efficient and make your code shorter.
 - video#2:function that uses an array as a parameter,and then we trace every element there and check the order of excution of the line by line , then we observe the call stack there.
-- video#3 : higher order function, a function has on its paramerter another function so we have two 3 excution contexts [scope(),func1,func2] in the call stack!.
+- video#3 :A higher-order function is a function that takes another function as its parameter, resulting in two execution contexts [scope(), func1, func2] in the call stack. Therefore, each function existing within the overall scope represents a new execution context.
 - video#4 :
