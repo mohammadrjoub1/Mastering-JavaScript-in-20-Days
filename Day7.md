@@ -6,4 +6,6 @@
 - video #3:in simple terms the global() meaning that the global scope elements are always at the bottom of the call stack and any new function call has been called it always go to the top of the call stack.
 
 # Function and callBacks
-- video#1:
+- video#1:how to make your functions more efficient and make your code shorter.
+- video#2:function that uses an array as a parameter,and then we trace every element there and check the order of excution of the line by line , then we observe the call stack there.
+- 
