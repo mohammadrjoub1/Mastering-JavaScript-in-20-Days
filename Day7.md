@@ -10,4 +10,4 @@
 - video#2:function that uses an array as a parameter,and then we trace every element there and check the order of excution of the line by line , then we observe the call stack there.
 - video#3 :A higher-order function is a function that takes another function as its parameter, resulting in two execution contexts [scope(), func1, func2] in the call stack. Therefore, each function existing within the overall scope represents a new execution context.
 - video#4 :an example of highe-order functions p.s: when we call the function and with an argument with type function  we dont put () becuase we are not calling the function that we put it in the argument insted we pass the function to the parameter variable (calling back)0.
-- 
+- video#5:q and a , one of them was asking about when passing an argument this argument doesnt been copied in value it copied in refrence
