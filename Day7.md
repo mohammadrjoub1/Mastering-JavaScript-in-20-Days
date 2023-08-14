@@ -12,4 +12,4 @@
 - video#4 :an example of highe-order functions p.s: when we call the function and with an argument with type function  we dont put () becuase we are not calling the function that we put it in the argument insted we pass the function to the parameter variable (calling back)0.
 - video#5: q and a , one of them was asking about when passing an argument this argument doesnt been copied in value it copied in refrence.
 - video#6:any function that takes a function as a parameter or return a function called higher order function and any function passed as a parameter in the higher order function called a call back function becuase we do call it back when we have it.
-- video#7:
+- video#7:anonymous functions are used under the hood when an arrow function is instantiated. The drawbacks of using arrow functions on overall understanding and readability is then discussed, and a question is asked about whether there are memory considerations when using an arrow function .
