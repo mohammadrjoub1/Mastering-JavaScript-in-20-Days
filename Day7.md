@@ -52,6 +52,6 @@ let sum=0;
 
 reducing([1,2,3,4],n=>sum+=n)
 
-## challenge #6:
+## challenge #6:f
 
 
