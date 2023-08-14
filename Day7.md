@@ -13,3 +13,42 @@
 - video#5: q and a , one of them was asking about when passing an argument this argument doesnt been copied in value it copied in refrence.
 - video#6:any function that takes a function as a parameter or return a function called higher order function and any function passed as a parameter in the higher order function called a call back function becuase we do call it back when we have it.
 - video#7:anonymous functions are used under the hood when an arrow function is instantiated. The drawbacks of using arrow functions on overall understanding and readability is then discussed, and a question is asked about whether there are memory considerations when using an arrow function .
+  # challenges:
+## challenge #1:
+function addTwo(num) {
+  return num +2;
+
+}
+## challenge #2:
+function addS(word) {
+  return word+s;
+
+}
+## challenge #3:
+function map(array, callback) {
+  let newArray=[];
+  for(let i =0;i<array.length;i++){
+    
+    
+    newArray.push(callback(array[i]))
+    
+  }
+  
+  return newArray;
+
+}
+## challenge #5:
+function reducing(array,callback){
+
+for(let item of array )
+
+sum=+callback(item);
+    
+}
+
+let sum=0;
+
+
+
+reducing([1,2,3,4],n=>sum+=n)
+
