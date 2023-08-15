@@ -15,3 +15,10 @@
 - video#7:anonymous functions are used under the hood when an arrow function is instantiated. The drawbacks of using arrow functions on overall understanding and readability is then discussed, and a question is asked about whether there are memory considerations when using an arrow function .
   # challenges:
 ## challenge #1:
+function addTwo(input) {
+
+
+    return input + 2;
+}
+## challenge #2:
+
