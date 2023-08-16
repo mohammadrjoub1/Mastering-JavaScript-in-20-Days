@@ -135,4 +135,15 @@ function mapAsync(array, callBack) {
 
 }
 ### question2:
+function sumRange(start, end) {
+    if (start === end) {
+        return start;
+    } else {
+        return start + sumRange(start + 1, end);
+    }
+}
+
+// Example usage
+const result = sumRange(1, 5); // Calculates 1 + 2 + 3 + 4 + 5 = 15
+console.log(result); // Output: 15
 
