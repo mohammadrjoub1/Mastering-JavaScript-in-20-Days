@@ -20,5 +20,11 @@ const f = func1();//now f has the return value f2 we user () so we call the func
 f(2);// now we have access on func2() even we are not accessing func1()
 using a member from a function without calling the function for example we can return a function from the main function and we put the return in a variable then we can use the variable() to call the function was inside that function without calling the  main function.
 
+- video#3:making function2 inside function1 and calling function 2 inside function1 and editing value of counter in function 1 from function 2 by counter ++ and seeing the effect.
+
+
+- video#4:
+
+
 
 
