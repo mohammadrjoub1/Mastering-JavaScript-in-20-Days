@@ -21,4 +21,73 @@ function addTwo(input) {
     return input + 2;
 }
 ## challenge #2:
+function addS(input) {
+
+
+    return input + 's';
+}
+## challenge #3:
+function map(array, func) {
+    let newArray = [];
+    for (let i = 0; i < array.length; i++) {
+
+        newArray.push(func(array[i]))
+
+    }
+    return newArray;
+
+
+}
+## challenge#4:
+
+function forEach(array, callback) {
+    for (let i = 0; i < array.length; i++) {
+        callback(array[i])
+    }
+
+}
+
+
+let alphabet = '';
+forEach(['a', 'b', 'c', 'd'], char => alphabet += char);
+console.log(alphabet);  
+
+## challenge#4:
+let finalArray= '';
+function forEach(array, callback) {
+
+    for (let i = 0; i < array.length; i++) {
+
+        callback(array[i])
+    }
+
+
+
+}
+console.log(forEach(['a', 'b', 'c', 'd'], item => finalArray += item))
+ ## challenger #5:
+function mapWith(array, func) {
+    let newArray = [];
+    array.forEach(function (item,index,array) {
+
+        newArray.push(func(item));
+
+    })
+    return newArray;
+
+
+} 
+## challenge #6:
+function reduce(array, callback, initialValue) {
+    let acc = initialValue
+    for (let i = 0; i < array.length; i++) {
+        acc = callback(acc, array[i])
+    }
+    return acc
+}
+console.log(reduce([4, 1, 3], (a,b)=>a+b, 0));   
+
+
+## challenge 7:
+
 
