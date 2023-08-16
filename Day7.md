@@ -121,5 +121,18 @@ function squareList(array) {
 }
 squareList([-3, 4.8, 5, 3, -3.2,2,4,8,7]);
 ## 2 :
+function urlSlug(title) {
 
+   let array = title.split(' ')
+    return array.join('-')
+
+}
+urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
+## 3:
+### question1:
+function mapAsync(array, callBack) {
+    let newArray =await array.map(callBack);
+
+}
+### question2:
 
