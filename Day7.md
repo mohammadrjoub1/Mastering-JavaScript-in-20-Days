@@ -78,16 +78,48 @@ function mapWith(array, func) {
 
 } 
 ## challenge #6:
-function reduce(array, callback, initialValue) {
-    let acc = initialValue
-    for (let i = 0; i < array.length; i++) {
-        acc = callback(acc, array[i])
-    }
-    return acc
-}
-console.log(reduce([4, 1, 3], (a,b)=>a+b, 0));   
+function reduce(array, callBack, initialValue) {
 
+
+
+    let acc = initialValue;
+    array.forEach(function (item, index, array) {
+
+        acc = callBack(acc, item);
+
+
+    })
+    return acc;
+}
+reduce([1, 2, 3], (acc, item) => acc + item, 0);
 
 ## challenge 7:
+function intersection(arrays) {
+    if (arrays.length === 0) {
+        return [];
+    }
+
+    const referenceArray = arrays[0];
+
+    const commonElements = referenceArray.filter(element => {
+        return arrays.every(array => array.includes(element));
+    });
+
+    return commonElements;
+}
+
+
+intersection([[1, 2, 3], [2, 3, 4], [3, 2, 4, 5]]);
+
+# deliverables:
+## 1:
+function squareList(array) {
+
+    let newArr = array.filter(item => Number.isInteger(item) && item % 2 === 0)
+
+    return newArr.map(item=>Math.pow(item,2));
+}
+squareList([-3, 4.8, 5, 3, -3.2,2,4,8,7]);
+## 2 :
 
 
