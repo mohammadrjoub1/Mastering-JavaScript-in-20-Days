@@ -37,6 +37,79 @@ using a member from a function without calling the function for example we can r
 - video#7:about what would happen if the one of the functions were to return an augmented variable, a clarification on the previous example, and what would happen if the function's order was augmented.
 - video#8:Questions (DONE)
 
+  # Deliverables:
+  ## Question 1:
+function createCounter(start) {
+  let counter = start;
+
+  function increment() {
+    counter++;
+    return counter;
+  }
+
+  return increment;
+}
+
+// Usage
+const myCounter = createCounter(5);
+
+console.log(myCounter()); // Output: 6
+console.log(myCounter()); // Output: 7
+console.log(myCounter()); // Output: 8
+
+  ## Question 2:
+  function calculateAverage(nums) {
+  return function() {
+    const sum = nums.reduce((acc, num) => acc + num, 0);
+    const average = sum / nums.length;
+    return average;
+  };
+}
+
+// Usage
+const numsArray = [5, 10, 15, 20];
+const averageCalculator = calculateAverage(numsArray);
+
+console.log(averageCalculator()); // Output: 12.5
+
+
+  ## Question 3:
+  function powerOf(base) {
+  return function(exp) {
+    return Math.pow(base, exp);
+  };
+}
+
+// Usage
+const baseNumber = 2;
+const exponentCalculator = powerOf(baseNumber);
+
+console.log(exponentCalculator(3)); // Output: 8 (2^3)
+console.log(exponentCalculator(4)); // Output: 16 (2^4)
+  ## Question 4:
+function compose(...functions) {
+  return function(value) {
+    return functions.reduceRight((result, fn) => fn(result), value);
+  };
+}
+
+// Usage
+function add2(x) {
+  return x + 2;
+}
+
+function double(x) {
+  return x * 2;
+}
+
+function square(x) {
+  return x * x;
+}
+
+const composedFunction = compose(square, double, add2);
+
+console.log(composedFunction(2)); // Output: 36 (square(double(add2(2))))
+
 
 
 
