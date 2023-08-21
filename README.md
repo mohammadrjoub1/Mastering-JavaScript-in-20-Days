@@ -38,7 +38,12 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
   -  [**day4**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day4.md)
   -  [**day5**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day5.md)
   -  [**day6**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day6.md)
-    
+  -  [**day7**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day7.md)
+  -  [**day8**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day8.md)
+  -  [**day9**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day9.md)
+  -  [**day10**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day10.md)
+  -  [**day11**](https://github.com/mohammadrjoub1/Mastering-JavaScript-in-20-Days/blob/main/day11.md)
+
 
 
 
