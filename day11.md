@@ -30,3 +30,16 @@ function convertStringToNumber(item) {
 
 }
 ## QUESTION 2:
+function checkNaN(item) {
+
+    if (item !== item) {// the only case an number is nan is nan !== nan
+
+        return true // so item is nan
+
+    }
+    else {
+        return false;
+    }
+
+}
+## QUESTION 3:
