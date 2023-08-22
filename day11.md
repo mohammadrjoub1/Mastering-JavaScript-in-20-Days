@@ -43,3 +43,34 @@ function checkNaN(item) {
 
 }
 ## QUESTION 3:
+function isEmptyValue(item) {
+    if (Boolean(item)) {
+
+
+        return true;// its an null or undefined or empty string
+    }
+    return false;
+    
+
+}
+## QUESTION 4:
+function compareObjects(ob1,ob2) {
+
+    if (typeof (ob1) !== "object" || typeof (ob2) !== "object") {
+
+
+        return [ob1, ob2];
+    }
+    else {
+
+        return Object.is(ob1, ob2);
+
+    }
+
+
+
+
+}
+## QUESTION 5:
+
+
