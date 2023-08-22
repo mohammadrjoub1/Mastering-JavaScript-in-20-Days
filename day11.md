@@ -8,3 +8,25 @@
 - video#6:explains how operations on it can cause unexpected results.
 # Coercion section:
 ## He talked about abstract operations and how javascript deal with all of these operations and some wired and strange behaviours of this language with those operations!
+# deliverables:
+## QUESTION 1:
+function convertStringToNumber(item) {
+
+    if (typeof (item) === 'string') {
+
+        return +item;
+
+    }
+    else {
+
+
+        return {
+
+            value: item,
+            type: typeof (item)
+        };
+    }
+
+
+}
+## QUESTION 2:
