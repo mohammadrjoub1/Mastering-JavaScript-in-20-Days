@@ -7,7 +7,10 @@
 - video#5: NAN===NAN is false and NAN- + * / 5 = NAN always!
 - video#6:explains how operations on it can cause unexpected results.
 # Coercion section:
-## He talked about abstract operations and how javascript deal with all of these operations and some wired and strange behaviours of this language with those operations!
+### He provided an in-depth exploration of abstract operations in JavaScript, elucidating the language's nuanced approach to handling them and shedding light on its idiosyncratic and at times unpredictable behaviors within this context.
+
+
+
 # deliverables:
 ## QUESTION 1:
 function convertStringToNumber(item) {
