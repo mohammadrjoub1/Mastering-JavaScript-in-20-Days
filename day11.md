@@ -90,4 +90,6 @@ function compareObjects(ob1,ob2) {
         return input;
     }}
 
+# Philosophy of Coercion section:
+
 
