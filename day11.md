@@ -72,5 +72,16 @@ function compareObjects(ob1,ob2) {
 
 }
 ## QUESTION 5:
+function complexCoercion(input) {
+    if (typeof input === "number") {
+        return Boolean(input.toString());
+    } else if (typeof input === "string") {
+        return Boolean(input);
+    } else if (input === null || input === undefined) {
+        return false;
+    } else {
+        return input;
+    }
+}
 
 
