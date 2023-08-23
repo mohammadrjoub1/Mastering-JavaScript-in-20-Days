@@ -94,58 +94,25 @@ function compareObjects(ob1,ob2) {
 ### In his discussion, Kyle explores the differences between double equals and triple equals, clarifying common misconceptions. He delves into the decision-making process for choosing between them and the impact of linters on code quality. Additionally, Kyle closely examines the specifications for coercive equality to gain a comprehensive understanding of double equals' behavior. He illustrates his points with practical code examples, highlighting that many famous corner cases are derived from improbable scenarios.
 # deliverables:
 ## question1:
-                // Define a type for the resolved values of the promises.
-        type PromiseResult<T> = T extends Promise<infer U> ? U : never;
-        
-        // Define an interface for the output object.
-        interface ResultObject {
-            sayHelloWorld: PromiseResult<typeof sayHelloWorld>;
-            checkBoolean: PromiseResult<typeof checkBoolean>;
-            returnObj: PromiseResult<typeof returnObj>;
-        }
-        
-        // Correct the promises and wrap them with types.
-        const sayHelloWorld = new Promise<string>((resolve, reject) => {
-            resolve("Hello world!");
-        });
-        
-        const checkBoolean = (boolean: boolean) => new Promise<boolean>((resolve, reject) => {
-            if (boolean) {
-                resolve(boolean);
-            } else {
-                reject(`Input is false :(`);
-            }
-        });
-        
-        const returnObj = new Promise<{ x: string; y: number }>((resolve, reject) => {
-            resolve({
-                x: "meow",
-                y: 45,
-            });
-        });
-        
-        const promisesArray = [sayHelloWorld, checkBoolean(true), returnObj];
-        
-        // Define the convertToObj function.
-        const convertToObj = (array: Promise<any>[]) => {
-            const obj: Partial<ResultObject> = {};
-        
-            // Iterate through the promises and populate the object.
-            array.forEach((promise, index) => {
-                obj[`promise${index + 1}`] = promise.then((result) => result).catch((error) => error);
-            });
-        
-            return obj as ResultObject;
-        };
-        
-        // Call the convertToObj function.
-        const resultObject = convertToObj(promisesArray);
-        
-        console.log(resultObject);
+               
         
 ## question2:
           console.log(a);// we will see the value of a becusae its in the var scoping <the var scoping is function scoping not block scoping like the let or const> 
           console.log(b);// undefined because of the block scoping of the let key word
           console.log(c);// undefined because of the block scoping of the let key word
+
+## question3:
+                C) undefined, undefined, ReferenceError
+                
+                Here's the explanation:
+                
+                In JavaScript, variables declared with var are hoisted to the top of their containing function or block (if declared within a block). However, their                     assignments are not hoisted. Variables declared with let and const are block-scoped and not hoisted to the top of the block.
+## question4:
+
+The correct answer is C) [36, 100, 45] | [1, 2, 3] | [1, 100, 45].
+
+This is because variables with the same names (a, b, and c) are declared both inside and outside the if block, and they have different scopes. Inside the block, new variables with the same names shadow the outer ones, and their values change. The logs display these different values at each scope.
+
+
 
 
