@@ -91,5 +91,6 @@ function compareObjects(ob1,ob2) {
     }}
 
 # Philosophy of Coercion section:
+### In his discussion, Kyle explores the differences between double equals and triple equals, clarifying common misconceptions. He delves into the decision-making process for choosing between them and the impact of linters on code quality. Additionally, Kyle closely examines the specifications for coercive equality to gain a comprehensive understanding of double equals' behavior. He illustrates his points with practical code examples, highlighting that many famous corner cases are derived from improbable scenarios.
 
 
