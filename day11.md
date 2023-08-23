@@ -13,7 +13,7 @@
 
 # deliverables:
 ## QUESTION 1:
-function convertStringToNumber(item) {
+    function convertStringToNumber(item) {
 
     if (typeof (item) === 'string') {
 
@@ -31,7 +31,7 @@ function convertStringToNumber(item) {
     }
 
 
-}
+    }
 ## QUESTION 2:
 function checkNaN(item) {
 
@@ -44,9 +44,9 @@ function checkNaN(item) {
         return false;
     }
 
-}
+    }
 ## QUESTION 3:
-function isEmptyValue(item) {
+    function isEmptyValue(item) {
     if (Boolean(item)) {
 
 
@@ -55,7 +55,7 @@ function isEmptyValue(item) {
     return false;
     
 
-}
+    }
 ## QUESTION 4:
 function compareObjects(ob1,ob2) {
 
@@ -75,7 +75,11 @@ function compareObjects(ob1,ob2) {
 
 }
 ## QUESTION 5:
-function complexCoercion(input) {
+
+
+
+    function complexCoercion(input) { 
+
     if (typeof input === "number") {
         return Boolean(input.toString());
     } else if (typeof input === "string") {
@@ -84,7 +88,6 @@ function complexCoercion(input) {
         return false;
     } else {
         return input;
-    }
-}
+    }}
 
 
