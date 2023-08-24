@@ -5,4 +5,6 @@ To ensure clarity and understanding, Kyle readily engages with questions pertain
 
 
 
+#  Scope & Function Expressions section:
+
 
